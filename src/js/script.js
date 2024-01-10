@@ -77,6 +77,8 @@ function downloadDocumento() {
   // Impostazione degli attributi del link
   link.href = documentoURL;
   link.download = 'Resume - Stapane Alessandro'; // Sostituisci con il nome desiderato per il documento
+// Impostazione degli attributi del link
+link.type = 'application/pdf';  // Aggiungi questa linea
 
   // Aggiunta del link alla pagina
   document.body.appendChild(link);
