@@ -65,3 +65,25 @@ let myDate = document.querySelector("#datee");
 
 const yes = new Date().getFullYear();
 myDate.innerHTML = yes;
+
+
+function downloadDocumento() {
+  // Creazione di un elemento <a> (link)
+  var link = document.createElement('a');
+  var doc = './src/assets/Resume/Resume.pdf'
+  // Impostazione dell'URL del documento che si desidera scaricare
+  var documentoURL = doc; // Sostituisci con l'effettivo URL del tuo documento
+
+  // Impostazione degli attributi del link
+  link.href = documentoURL;
+  link.download = 'Resume - Stapane Alessandro'; // Sostituisci con il nome desiderato per il documento
+
+  // Aggiunta del link alla pagina
+  document.body.appendChild(link);
+
+  // Simulazione del clic sul link per avviare il download
+  link.click();
+
+  // Rimozione del link dalla pagina
+  document.body.removeChild(link);
+}
