@@ -393,13 +393,13 @@ body {
   margin-left: -2px;
   width: 4px;
   height: 100%;
-  background: #3498db;
+  background: var(--primary-color);
 }
 
 .timeline-item .date {
   font-size: 14px;
   font-weight: bold;
-  color: #3498db;
+  color: var(--secondary-color);
   translate: -25px;
 }
 
@@ -412,5 +412,5 @@ body {
 .timeline-item p {
   font-size: 14px;
   line-height: 1.6;
-  translate: 25px;
+  translate: 235px;
 }
