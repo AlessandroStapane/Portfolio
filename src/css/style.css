@@ -783,6 +783,10 @@ body {
   color: var(--text-color);
 }
 
+.progress-bar-git{
+  background-color: black;
+  color: var(--text-color-two);
+}
 .timeline {
   position: relative;
   max-width: 1200px;
