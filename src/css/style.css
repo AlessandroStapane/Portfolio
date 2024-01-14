@@ -784,7 +784,7 @@ body {
 }
 
 .progress-bar-git{
-  background-color: black;
+  background-color: var(--bg-secondary-two);
   color: var(--text-color-two);
 }
 .timeline {
