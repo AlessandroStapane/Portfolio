@@ -89,3 +89,7 @@ link.type = 'application/pdf';  // Aggiungi questa linea
   // Rimozione del link dalla pagina
   document.body.removeChild(link);
 }
+function BackToHome() {
+  var home = "../index.html";
+  window.location.href = home;
+}
