@@ -834,3 +834,20 @@ body {
   translate: 235px;
 }
 
+.progress-bar-react,
+.progress-bar-net,
+.progress-bar-js,
+.progress-bar-css,
+.progress-bar-html,
+.progress-bar-jq,
+.progress-bar-db,
+.progress-bar-git {
+    text-align: center;
+    color: white;
+    transition: width 0.5s ease-in-out;  /* Riduci la durata della transizione */
+}
+
+/* Aggiungi questa regola per nascondere le barre di avanzamento inizialmente */
+.progress {
+    opacity: 0;
+}
