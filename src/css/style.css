@@ -819,19 +819,18 @@ body {
   font-size: 14px;
   font-weight: bold;
   color: var(--secondary-color);
-  translate: -56px;
+
 }
 
 .timeline-item h3 {
   font-size: 18px;
   margin-top: 10px;
-  translate: 100px;
 }
 
 .timeline-item p {
   font-size: 14px;
   line-height: 1.6;
-  translate: 235px;
+  
 }
 
 .progress-bar-react,
@@ -851,3 +850,4 @@ body {
 .progress {
     opacity: 0;
 }
+
