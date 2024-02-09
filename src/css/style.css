@@ -819,18 +819,35 @@ body {
   font-size: 14px;
   font-weight: bold;
   color: var(--secondary-color);
-  translate: -56px;
+
 }
 
 .timeline-item h3 {
   font-size: 18px;
   margin-top: 10px;
-  translate: 100px;
 }
 
 .timeline-item p {
   font-size: 14px;
   line-height: 1.6;
-  translate: 235px;
+  
+}
+
+.progress-bar-react,
+.progress-bar-net,
+.progress-bar-js,
+.progress-bar-css,
+.progress-bar-html,
+.progress-bar-jq,
+.progress-bar-db,
+.progress-bar-git {
+    text-align: center;
+    color: white;
+    transition: width 0.5s ease-in-out;  /* Riduci la durata della transizione */
+}
+
+/* Aggiungi questa regola per nascondere le barre di avanzamento inizialmente */
+.progress {
+    opacity: 0;
 }
 

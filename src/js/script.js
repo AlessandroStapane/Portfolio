@@ -93,3 +93,89 @@ function BackToHome() {
   var home = "../index.html";
   window.location.href = home;
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  animaBarre();
+});
+
+var options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.2  // Cambia questo valore a seconda di quanto vuoi che la sezione sia visibile prima di avviare l'animazione
+};
+
+var observer = new IntersectionObserver(handleIntersection, options);
+var skillsSection = document.getElementById('skill');
+
+observer.observe(skillsSection);
+
+function handleIntersection(entries, observer) {
+  entries.forEach(entry => {
+      if (entry.isIntersecting) {
+          // Sezione entrata nella visualizzazione, avvia l'animazione
+          animaBarre();
+          observer.unobserve(entry.target);
+      }
+  });
+}
+
+var options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.2
+};
+
+var observer = new IntersectionObserver(handleIntersection, options);
+var skillsSection = document.getElementById('skillsSection');
+
+observer.observe(skillsSection);
+
+function handleIntersection(entries, observer) {
+  entries.forEach(entry => {
+      if (entry.isIntersecting) {
+          animaBarre();
+          observer.unobserve(entry.target);
+      }
+  });
+}
+
+var skillsSection = document.getElementById('skill');
+
+function handleWaypoint() {
+    animaBarre();
+    this.destroy();  // Ferma il listener dopo che l'evento è stato gestito
+}
+
+var waypoints = new Waypoint({
+    element: skillsSection,
+    handler: handleWaypoint,
+    offset: '80%'  // Modifica questo valore a seconda di quando vuoi che l'evento venga attivato rispetto all'altezza della finestra
+});
+
+function animaBarre() {
+    animaBarra("progress-bar-react", 20);
+    animaBarra("progress-bar-net", 40);
+    animaBarra("progress-bar-js", 30);
+    animaBarra("progress-bar-css", 50);
+    animaBarra("progress-bar-html", 90);
+    animaBarra("progress-bar-jq", 30);
+    animaBarra("progress-bar-db", 70);
+    animaBarra("progress-bar-git", 50);
+}
+
+function animaBarra(classe, percentuale) {
+    var barra = document.querySelector("." + classe);
+    var porcentaje = 0;
+
+    var intervalo = setInterval(function () {
+        if (porcentaje >= percentuale) {
+            clearInterval(intervalo);
+        } else {
+            porcentaje++;
+            barra.style.width = porcentaje + "%";
+            barra.innerHTML = porcentaje + "%";
+        }
+    }, 15);
+
+    barra.parentElement.style.opacity = 1;
+}

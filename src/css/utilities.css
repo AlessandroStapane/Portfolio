@@ -32,6 +32,14 @@ h2::selection {
   color: #000000;
 }
 
+.btn-primary-404{
+  display: inline-block;
+  padding: 0.75rem 1.9rem;
+  border-radius: 30px;
+  background: var(--primary-color);
+  font-size: 0.82rem;
+  transition: 0.3s;
+}
 .btn-secondary {
   margin: 5px 0;
   background-color: var(--bg-secondary);

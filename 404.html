@@ -22,27 +22,60 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="center">
-
-            <h1>Error 404</h1>
-            <br/>
-            <p>Ops, pagina non trovata &#128529</p>
-            <br/>
-            <!-- <a href="./index.html">
-                 <button class="nav-link btn btn-primary">Torna alla pagina iniziale<i class="fas fa-arrow-right"></i>
-                 
-                </button>
-            </a> -->
-            <!-- <a href="../index.html" class="btn btn-secondary">Torna alla pagina iniziale<i class="fas fa-arrow-right"></i></a> -->
+    <header id="hero">
+        <section class="header-container" id="home">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <div class="container">
+                    <!-- Logo -->
+            <h1 id="logo">
+              <a href="../index.html"><img src="./src/assets/logo.png" alt="Me" /></a>
+            </h1>
+                    <!-- Navbar links 
             <ul class="nav-menu">
-            <li>
-                <button class="nav-link btn btn-primary" onclick="BackToHome()">Torna alla pagina iniziale <i
+              <li><a class="nav-link" href="#contact">Contatti</a></li>
+              <li><a class="nav-link" href="#skill">Skill</a></li>
+              <li><a class="nav-link" href="#experience">Esperienza</a></li>
+              <li><a class="nav-link" href="#projects">Progetti</a></li>
+              <li>
+                <button class="nav-link btn btn-primary" onclick="downloadDocumento()">RESUME <i
                     class="fas fa-arrow-right"></i></button>
-              </li>
-            </ul>
+              </li>-->
+
+                    <!-- Toggle switch -->
+                    <div class="theme-switch">
+                        <input type="checkbox" id="switch" />
+                        <label class="toggle-icons" for="switch">
+                            <img class="moon" src="./src/assets/moon.svg" />
+                            <img class="sun" src="./src/assets/sun.svg" />
+                        </label>
+                    </div>
+                    <!-- Hamburger menu -->
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <div class="container">
+            <div class="center">
+                <iframe src="./src/assets/img/giphy.gif" width="200" height="200" style="border: none;"></iframe>
+                
+                <h1>Error 404</h1>
+                <br />
+                <h3>Ops, pagina non trovata! &#128529</h3>
+                <br />
+                <ul class="nav-menu">
+                    <li>
+                        <button class=" btn-primary-404" onclick="BackToHome()">Torna alla pagina iniziale <i
+                                class="fas fa-arrow-right"></i></button>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 </body>
 <script src="./src/js/script.js"></script>
 
