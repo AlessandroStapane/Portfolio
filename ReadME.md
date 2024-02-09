@@ -47,12 +47,5 @@ Se desideri contribuire, segui questi passaggi:
 * **[Email](alessandro.stapane@outlook.com)**<br>
 * **[Sito Web](http://alessandrostapane.github.io/Portfolio/)**<br>
 * **[LinkedIn](www.linkedin.com/in/alessandrostapane)**<br>
-<style>
-    a{
-         text-decoration: none;
-    }
-    a:hover{
-        text-decoration: none;
-    }
-</style>
+
 Sono sempre aperto a nuove opportunità di collaborazione e feedback!
