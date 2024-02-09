@@ -70,7 +70,7 @@ myDate.innerHTML = yes;
 function downloadDocumento() {
   // Creazione di un elemento <a> (link)
   var link = document.createElement('a');
-  var doc = './src/assets/Resume/Resume.pdf'
+  var doc = './src/assets/Resume/Alessandro_Stapane.pdf'
   // Impostazione dell'URL del documento che si desidera scaricare
   var documentoURL = doc; // Sostituisci con l'effettivo URL del tuo documento
 
