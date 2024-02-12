@@ -90,7 +90,7 @@ link.type = 'application/pdf';  // Aggiungi questa linea
   document.body.removeChild(link);
 }
 function BackToHome() {
-  var home = "../index.html";
+  var home = "./index.html";
   window.location.href = home;
 }
 
