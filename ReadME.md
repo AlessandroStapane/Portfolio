@@ -1,4 +1,4 @@
-# Portfolio Personale
+# Portfolio
 
 Benvenuto nel mio portfolio personale!
 
