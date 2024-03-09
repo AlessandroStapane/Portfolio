@@ -42,8 +42,8 @@ Se desideri contribuire, segui questi passaggi:
 1. Commit le tue modifiche (git commit -am 'Aggiungi una nuova funzionalità')
 1. Push il branch (git push origin feature/aggiungi-nuova-funzionalita)
 1. Apri una Pull Request
-
-[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/alessandrostapane)
+   
+[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" height="50">](https://www.buymeacoffee.com/alessandrostapane)
 
 ### Contatti
 * **[Email](alessandro.stapane@outlook.com)**<br>
