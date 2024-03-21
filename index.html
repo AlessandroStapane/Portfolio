@@ -89,7 +89,7 @@
   <section id="contact" class="header-containe">
     <div class="division"></div>
     <div class="content-text">
-      <h2>Contatti</h2>
+      <h1>Contatti</h1>
     </div>
     <article class="contact">
       <div class="row g-0 text-center" style="display: flex;flex-wrap: nowrap;justify-content: center;">
@@ -97,10 +97,10 @@
           <div class="cardio">
             <div class="contact">
               <div class="content-text">
-                <h2>E-mail:</h2>
+                <h3>E-mail:</h3>
                 <p><a href="mailto:alessandro.stapane@outlook.com">alessandro.stapane@outlook.com</a></p>
                 <br>
-                <h2>Cellulare:</h2>
+                <h3>Cellulare:</h3>
                 <p><a href="tel:+39 3338887689">+39 333 888 7689</a></p>
               </div>
             </div>
@@ -244,7 +244,7 @@
     </div>
 
     <article class="project">
-      <!-- Project 1 -->
+      <!-- Project 1 
       <div href="" class="card">
         <div class="project-info">
           <div class="project-bio">
@@ -257,7 +257,7 @@
             <a href="./404.html"><i class="fas fa-globe"></i></a>
           </div>
         </div>
-      </div>
+      </div>-->
 
       <!-- Project 2 -->
       <div href="" class="card">
@@ -274,17 +274,17 @@
         </div>
       </div>
 
-      <!-- Porject 3 
+      <!-- Porject 3--> 
       <div href="" class="card">
         <div class="project-info">
           <div class="project-bio">
-            <h3>Project Three</h3>
-            <p>React, Redux, SASS</p>
+            <h3>Portfolio App</h3>
+            <p>Sviluppata in: SwiftUI</p>
           </div>
 
           <div class="project-link">
-            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://github.com/AlessandroStapane/PortfolioApp" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://testflight.apple.com/join/x14hWNI6" target="_blank" onclick="avviso()"><i class="fas fa-globe"></i></a>
           </div>
         </div>
       </div>
@@ -337,7 +337,10 @@
 
     <a href="#" class="btn btn-secondary" target="_blank">See More <i class="fas fa-arrow-right"></i></a>-->
   </section>
-
+<section>
+ <div>
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="alessandrostapane" data-description="Support me on Buy me a coffee!" data-message="" data-color="#ffd35c" data-position="Right" data-x_margin="18" data-y_margin="18"></script> </div>
+</section>
   <footer id="footer">
     <div class="container">
       <a href="mailto:alessandro.stapne@outlook.com">alessandro.stapne@outlook.com</a>
@@ -357,6 +360,7 @@
         </a>
       </div> -->
       <p>Copyright &copy; Alessandro <span id="datee"></span>, All rights reserved</p>
+  
     </div>
   </footer>
   <script src="./src/js/script.js"></script>
@@ -367,6 +371,11 @@
   gtag('js', new Date());
 
   gtag('config', 'G-2H96K3HQLG');
+
+
+  function avviso(){
+    window.alert("Attenzione, per visualizzare il portfolio per iOS hai bisongo di scaricare l'app di TestFlight(disponibile solo per iOS)!");
+  }
 </script>
 </body>
 </html>
