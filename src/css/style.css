@@ -17,7 +17,7 @@
   --bg-secondary: #000000;
   --card-background: #f4f4f4;
   --bg-secondary-two: #111111;
-
+  --primary-incorso: #4cf946;
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 
   /* Font Weight */
@@ -446,27 +446,27 @@ body {
   margin-left: -2px;
   width: 4px;
   height: 100%;
-  background: var(--primary-color);
+  background: var(--primary-incorso);
 }
 
 .timeline-item2 .date2 {
   font-size: 14px;
   font-weight: bold;
-  color: var(--secondary-color);
-  translate: -54px;
+  color: var(--primary-incorso);
+  translate: -70px;
 }
 
 
 .timeline-item2 h3 {
   font-size: 18px;
   margin-top: 10px;
-  translate: 100px;
+  translate: 46px;
 }
 
 .timeline-item2 p {
   font-size: 14px;
   line-height: 1.6;
-  translate: 150px;
+  translate: 185px;
 }
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
