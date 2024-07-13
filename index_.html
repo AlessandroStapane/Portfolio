@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <title>Portfolio Alessandro</title>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../src/assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../src/assets/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../src/assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="../src/assets/favicon/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="../src/assets/favicon/android-chrome-512x512.png" />
+  <link rel="icon" type="image/x-icon" href="../src/assets/favicon/favicon.ico" />
+  <link rel="manifest" href="../src/assets/favicon/site.webmanifest" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/css/utilities.css" />
+
+</head>
+
+<body>
+  <header id="hero">
+    <section class="header-container" id="home">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#home">
+            <img src="./src/assets/logo.png" alt="Me" />
+          </a>
+          <!-- Hamburger menu button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contatti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Esperienza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Progetti</a>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link btn btn-primary" onclick="downloadDocumento()">RESUME <i class="fas fa-arrow-right"></i></button>
+              </li>
+            </ul>
+            <!-- Toggle switch -->
+            <div class="d-flex align-items-center">
+              <div class="theme-switch ms-3">
+                <input type="checkbox" id="switch" />
+                <label class="toggle-icons" for="switch">
+                  <img class="moon" src="./src/assets/moon.svg" />
+                  <img class="sun" src="./src/assets/sun.svg" />
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <img class="profile-image" src="./src/assets/logo.png" alt="" />
+      <h1 class="display-4">Ciao sono Alessandro</h1>
+
+      <div class="content-text">
+        <h4>
+          Full Stack Developer.
+        </h4>
+        <p>
+          Nothing Is Impossible!
+        </p>
+      </div>
+      <a href="https://github.com/AlessandroStapane" class="btn btn-secondary" target="_blank">Connettiti come me
+      </a>
+     
+    
+    </section>
+  </header>
+  <br /><br /><br /><br /><br /><br /><br /><br />
+  <!-- Contact -->
+  <section id="contact" class="header-containe">
+    <div class="division"></div>
+    <div class="content-text">
+      <h1>Contatti</h1>
+    </div>
+    <article class="contact">
+      <div class="row g-0 text-center" style="display: flex;flex-wrap: nowrap;justify-content: center;">
+        <div class="col-6 col-md-4">
+          <div class="cardio">
+            <div class="contact">
+              <div class="content-text">
+                <h3>E-mail:</h3>
+                <p><a href="mailto:alessandro.stapane@outlook.com">alessandro.stapane@outlook.com</a></p>
+                <br>
+                <h3>Cellulare:</h3>
+                <p><a href="tel:+39 3338887689">+39 333 888 7689</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+  </section>
+
+  <section id="skill" class="header-containe">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>Skill</h2>
+
+    </div>
+    <article class="skill">
+      <div calass="continer">
+        <div class="row g-0 text-center">
+          <div class="col-6 col-md-4">
+            <p>React JS</p>
+          </div>
+          <div class="col-sm-4 col-md-6">
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar-react " style="width: 20%">20%</div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 text-center">
+          <div class="col-6 col-md-4">
+            <p>.NET</p>
+          </div>
+          <div class="col-sm-4 col-md-6">
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar-net " style="width: 40%">40%</div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 text-center">
+          <div class="col-6 col-md-4">
+            <p>Javascript</p>
+          </div>
+          <div class="col-sm-4 col-md-6">
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar-js " style="width: 30%">30%</div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 text-center">
+          <div class="col-6 col-md-4">
+            <p>CSS3</p>
+          </div>
+          <div class="col-sm-4 col-md-6">
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar-css " style="width: 50%">50%</div>
+            </div>
+          </div>
+          <div class="row g-0 text-center">
+            <div class="col-6 col-md-4">
+              <p>HTML</p>
+            </div>
+            <div class="col-sm-4 col-md-6">
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar-html " style="width: 90%">90%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0 text-center">
+            <div class="col-6 col-md-4">
+              <p>Jquery</p>
+            </div>
+            <div class="col-sm-4 col-md-6">
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar-jq " style="width: 30%">30%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0 text-center">
+            <div class="col-6 col-md-4">
+              <p>Database</p>
+            </div>
+            <div class="col-sm-4 col-md-6">
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar-db " style="width: 70%">70%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0 text-center">
+            <div class="col-6 col-md-4">
+              <p>Git</p>
+            </div>
+            <div class="col-sm-4 col-md-6">
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar-git " style="width: 50%">50%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0 text-center">
+            <div class="col-6 col-md-4">
+              <p>Java</p>
+            </div>
+            <div class="col-sm-4 col-md-6">
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar-git " style="width: 30%">30%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </article>
+  </section>  
+
+  <section id="experience" class="header-containe">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="division"></div>
+          <div class="content-text">
+            <h2>Esperienza</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="date">2021 - 2023</div>
+                <a href="http://seiconsulting.it/" target="_blank">
+                  <h3>SeiConsulting s.p.a</h3>
+                </a>
+                <p>Mantenimento, manutenzione e sviluppo degli applicativi esistenti</p>
+                
+                <div class="date">2024 - Presente</div>
+                <a href="http://cabel.it/" target="_blank">
+                  <h3>Cabel </h3>
+                </a>
+                <p>Mantenimento e sviluppo degli applicativi in essere </p>
+              </div>
+
+                    <!-- Add other timeline items here -->
+              <div class="timeline2">
+                <div class="timeline-item2">
+                  <div class="date2">2024 - Presente</div>
+                  <a href="http://cabel.it/" target="_blank">
+                    <h3>Cabel </h3>
+                  </a>
+                  <p>Mantenimento e sviluppo degli applicativi in essere </p>
+                </div>
+                <!-- Add other timeline items here -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- Projects -->
+  <section id="projects" class="project-container container">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>Progetti</h2>
+      <p>Dai un'occhiata ad alcuni dei miei progetti personali</p>
+    </div>
+
+    <article class="project">
+      <!-- Project 1 
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Whether App</h3>
+            <p>Sviluppata in: React, HTML5 e CSS</p>
+          </div>
+
+          <div class="project-link">
+            <a href="https://github.com/AlessandroStapane/appReact"><i class="fab fa-github"></i></a>
+            <a href="./404.html"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>-->
+
+      <!-- Project 2 -->
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Portfolio</h3>
+            <p>Sviluppato in: HTML5, CSS e Javascript</p>
+          </div>
+
+          <div class="project-link">
+            <a href="https://github.com/AlessandroStapane/Portfolio"><i class="fab fa-github"></i></a>
+            <a href="https://alessandrostapane.github.io/Portfolio/"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Porject 3--> 
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Portfolio App</h3>
+            <p>Sviluppata in: SwiftUI</p>
+          </div>
+
+          <div class="project-link">
+            <a href="https://github.com/AlessandroStapane/PortfolioApp" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://testflight.apple.com/join/x14hWNI6" target="_blank" onclick="avviso()"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project Four</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project Five</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project Six</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <a href="#" class="btn btn-secondary" target="_blank">See More <i class="fas fa-arrow-right"></i></a>-->
+  </section>
+<section>
+ <div>
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="alessandrostapane" data-description="Support me on Buy me a coffee!" data-message="" data-color="#ffd35c" data-position="Right" data-x_margin="18" data-y_margin="18"></script> </div>
+</section>
+  <footer id="footer">
+    <div class="container">
+      <a href="mailto:alessandro.stapne@outlook.com">alessandro.stapne@outlook.com</a>
+      <!-- Social links -->
+      <div class="social">
+        <a href="https://www.linkedin.com/in/alessandrostapane" target="_blank"><img
+            src="./src/assets/linkedin-icon.svg" alt="Linkedin" /></a>
+        <a href="https://github.com/AlessandroStapane" target="_blank"><img src="./src/assets/github-icon.svg"
+            alt="GitHub" /></a>
+      </div>
+      <!-- Attribution
+      <div class="attribution">
+        <a href="https://github.com/CommunityPro/portfolio-html" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://user-images.githubusercontent.com/62628408/157202263-9174da24-b19a-4017-9b7c-a1d26ae8f014.svg"
+            alt="attribution" width="150px" />
+        </a>
+      </div> -->
+      <p>Copyright &copy; Alessandro <span id="datee"></span>, All rights reserved</p>
+  
+    </div>
+  </footer>
+  <script src="./src/js/script.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2H96K3HQLG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2H96K3HQLG');
+
+
+  function avviso(){
+    window.alert("Attenzione, per visualizzare il portfolio per iOS hai bisongo di scaricare l'app di TestFlight(disponibile solo per iOS)!");
+  }
+</script>
+</body>
+</html>
